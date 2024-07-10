@@ -1,51 +1,44 @@
-# Natural ou Fake Natty? Como Vencer na Era das IAs Generativas
+## 💊 Farma-Tech AI Solution
 
-## 🚀 Introdução
+### 📒 Descrição
+Este projeto tem como objetivo criar um template esteticamente agradável e funcional para farmácias, profissionais de saúde e pacientes. O template aborda a automação de processos farmacêuticos, fornecimento de informações sobre medicamentos e a gestão de receitas médicas.
 
-> Woooow! Look at this 👀
+### 🤖 Tecnologias Utilizadas
+- **GPT-4**: Para geração de conteúdos informativos sobre medicamentos e orientações de uso.
+- **Claude 3**: Para automação de respostas a perguntas frequentes de pacientes.
+- **BERT**: Para análise de sentimentos e feedbacks de pacientes sobre medicamentos.
+- **IBM Watson**: Para reconhecimento de texto em receitas médicas digitalizadas.
+- **TensorFlow**: Para previsões de estoque e demandas de medicamentos.
 
-Olá pessoal, Venilton da DIO aqui! Inspirado na hype _"Natty or Not"_ do fisiculturismo, este Lab da DIO te convida a conhecer o mundo das IAs Generativas, explorando o potencial dessas tendências tecnológicas incríveis!
+### 🧐 Processo de Criação 
 
-## 🎯 Bora Pro Desafio!? Você Já Venceu 💪🤓
+#### 1. Pesquisa Inicial
+Coleta de dados sobre medicamentos e receitas médicas usando bibliotecas como `requests` para web scraping ou APIs de medicamentos.
 
-### Objetivos
+#### 2. Desenvolvimento do Template
+Utilização de frameworks web em Python como Flask para criar a interface, permitindo a exibição de informações sobre medicamentos e a gestão de receitas médicas.
 
-1. **Explorar IAs Generativas**: Utilize essas tecnologias para criar conteúdos que sejam o mais realista possível. Seja criativo! Você pode produzir imagens, textos, áudios, vídeos ou combinações de tudo isso!
-1. **Potfólio de Projetos**:
-    1. Faça o "fork" deste repositório, criando uma cópia em seu GitHub pessoal;
-    2. Edite seu README com os detalhes do seu projeto, siga nosso [Template](#template) (é só copiar, colar e preencher);
-    3. Submeta o link do seu repositório na plataforma da DIO. Pronto, você acabou de fortalecer seu portfólio de projetos nos perfis do GitHub e DIO 🚀
-1. **Efeito de Rede**: Compartilhe seus resultados nas redes sociais com a hashtag **#LabDIONattyOrNot**. Não esqueça de nos marcar: [DIO](https://www.linkedin.com/school/dio-makethechange) e [falvojr](https://www.linkedin.com/in/falvojr).
+#### 3. Geração de Conteúdo
+Integração com API do GPT-4 para gerar descrições de medicamentos, oferecendo informações detalhadas sobre o uso e efeitos colaterais.
 
-### Template
+#### 4. Automação de Respostas
+Utilização de Claude 3 para automatizar respostas a perguntas frequentes, melhorando o atendimento ao cliente e reduzindo o tempo de espera dos pacientes.
 
-```markdown
-# Título do Projeto Extremamente Aesthetic ;)
+#### 5. Análise de Sentimentos
+Uso de BERT para análise de sentimentos, permitindo a avaliação dos feedbacks dos pacientes e a identificação de áreas de melhoria no serviço farmacêutico.
 
-## 📒 Descrição
-Breve descrição do seu projeto
+#### 6. Digitalização de Receitas
+Uso de IBM Watson para OCR (Reconhecimento Óptico de Caracteres), facilitando a digitalização e interpretação de receitas médicas, minimizando erros de transcrição.
 
-## 🤖 Tecnologias Utilizadas
-Liste as IAs Generativas e outras ferramentas usadas
+#### 7. Previsão de Estoque
+Uso de TensorFlow para previsões de estoque, ajudando a evitar faltas e excessos de medicamentos e melhorando a gestão de inventário.
 
-## 🧐 Processo de Criação
-Descreva como você criou o conteúdo
+### 🚀 Resultados
+- **Melhoria no Atendimento**: O uso de Claude 3 automatizou respostas, reduzindo o tempo de espera dos pacientes.
+- **Precisão nas Receitas**: IBM Watson facilitou a digitalização e interpretação de receitas, minimizando erros.
+- **Gestão de Estoque Eficiente**: Previsões precisas com TensorFlow ajudaram a evitar faltas e excessos de medicamentos.
+- **Conteúdo Informativo**: Descrições detalhadas de medicamentos geradas por GPT-4 melhoraram a informação disponível para pacientes.
+- **Análise de Feedbacks**: BERT permitiu uma melhor compreensão dos sentimentos dos pacientes, ajudando a melhorar os serviços.
 
-## 🚀 Resultados
-Apresente os resultados do seu projeto
-
-## 💭 Reflexão (Opcional)
-Comente sobre o desafio de criar algo 'natty' com IA.
-```
-
-### Exemplos e Insigths
-
-- [E-BOOK](/exemplos/E-BOOK.md)
-- [Podcast](/exemplos/PODCAST.md)
-- [Vídeo (Avatar Virtual)](/exemplos/VIDEO.md)
-
-## Links Interessantes
-
-[Base10: If You’re Not First, You’re Last: How AI Becomes Mission Critical](https://base10.vc/post/generative-ai-mission-critical/)
-
-![Base10's Trend Map Generative AI](https://github.com/digitalinnovationone/lab-natty-or-not/assets/730492/f4df26e8-f8f7-4419-8252-c69d73ea930c)
+### 💭 Reflexão
+Criar um projeto estético e funcional para farmácias usando várias IAs foi um desafio interessante e gratificante. A combinação de diferentes tecnologias permitiu melhorar tanto o atendimento ao cliente quanto a gestão interna da farmácia. A automação de processos e a análise de dados proporcionaram um serviço mais eficiente e preciso, beneficiando tanto os profissionais de saúde quanto os pacientes.
